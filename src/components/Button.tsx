@@ -23,8 +23,9 @@ export function Button({
     "inline-flex items-center justify-center rounded-lg font-medium transition focus:outline-none";
 
   const variants = {
-    primary: "bg-accent text-white hover:bg-green-600",
-    secondary:
+    primary: "bg-accent text-white hover:bg-accent/90",
+    secondary: "text-white bg-primary hover:bg-primary/90",
+    outline:
       "border border-primary text-primary hover:bg-primary hover:text-white",
   };
 
@@ -36,7 +37,7 @@ export function Button({
 
   const styles = clsx(baseStyles, variants[variant], sizes[size], className);
 
-  // Internal link
+  // * Internal link
   if (to) {
     return (
       <Link to={to} className={styles}>
@@ -45,7 +46,7 @@ export function Button({
     );
   }
 
-  // External link
+  // * External link
   if (href) {
     return (
       <a href={href} className={styles}>
