@@ -1,3 +1,4 @@
+import CallToAction from "@/components/sections/CallToAction";
 import { coreValues } from "@/utils/constance";
 import { createFileRoute } from "@tanstack/react-router";
 
@@ -72,7 +73,7 @@ function RouteComponent() {
       </div>
 
       {/* Our Core Values */}
-      <div className="mt-12 max-container">
+      <div className="my-12 max-container">
         <h2 className="mb-6 text-center text-text">Our Core Values</h2>
         <div className="grid gap-8 grid-cols-[repeat(auto-fit,minmax(280px,1fr))]">
           {coreValues.map((value) => (
@@ -83,6 +84,35 @@ function RouteComponent() {
           ))}
         </div>
       </div>
+
+      {/* Stats */}
+      <div className="py-20 mb-12 bg-background">
+        <div className="mx-auto space-y-8 text-center max-container">
+          <div className="grid gap-8 sm:grid-cols-2">
+            <div>
+              <h4 className="text-3xl font-bold text-primary">500+</h4>
+              <p className=" text-black/90">Happy Clients</p>
+            </div>
+            <div>
+              <h4 className="text-3xl font-bold text-primary">10+</h4>
+              <p>Years of Experience</p>
+            </div>
+          </div>
+
+          <div className="grid gap-8 sm:grid-cols-2">
+            <div>
+              <h4 className="text-3xl font-bold text-primary">1000+</h4>
+              <p>Customer Support</p>
+            </div>
+            <div>
+              <h4 className="text-3xl font-bold text-primary">95%</h4>
+              <p>Customer Satisfaction</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <CallToAction />
     </section>
   );
 }
