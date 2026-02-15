@@ -75,3 +75,30 @@ export const servicesData = [
     href: "/services/web",
   },
 ];
+
+export const coreValues = [
+  {
+    header: "Reliability",
+    text: "We deliver consistent, dependable IT solutions you can count on every time",
+  },
+  {
+    header: "Professionalism",
+    text: "Our team maintains the highest standards of technical expertise and service quality",
+  },
+  {
+    header: "Customer Focus",
+    text: "Your success is our priority, and we tailor solutions to your specific needs",
+  },
+  {
+    header: "Innovation",
+    text: "We stay current with technology trends to provide cutting-edge solutions",
+  },
+  {
+    header: "Integrity",
+    text: "We conduct business with honesty and transparency in all dealings",
+  },
+  {
+    header: "Community",
+    text: "We're proud to serve and support the Burgersfort and Limpopo community",
+  },
+];

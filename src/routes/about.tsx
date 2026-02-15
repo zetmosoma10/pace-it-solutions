@@ -1,3 +1,4 @@
+import { coreValues } from "@/utils/constance";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/about")({
@@ -67,6 +68,19 @@ function RouteComponent() {
               affordable IT support that drives their success and growth.
             </p>
           </div>
+        </div>
+      </div>
+
+      {/* Our Core Values */}
+      <div className="mt-12 max-container">
+        <h2 className="mb-6 text-center text-text">Our Core Values</h2>
+        <div className="grid gap-8 grid-cols-[repeat(auto-fit,minmax(280px,1fr))]">
+          {coreValues.map((value) => (
+            <div className="p-6 border-t-4 rounded-lg border-t-primary hover:shadow-md bg-background">
+              <h3 className="text-primary">{value.header}</h3>
+              <p className="mt-2 text-black/70">{value.text}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
