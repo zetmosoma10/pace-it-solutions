@@ -24,6 +24,14 @@ body {
   background-size: cover;
 }
 
+.service-img {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/src/assets/e8d1f1f6-388f-482a-adc8-2d7d7ad4a66f.webp");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
 @layer base {
   h1 {
     @apply text-4xl font-bold sm:text-5xl md:text-6xl;

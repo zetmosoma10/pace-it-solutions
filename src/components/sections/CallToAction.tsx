@@ -15,19 +15,10 @@ const CallToAction = () => {
         </p>
 
         {/* Buttons */}
-        <div className="flex flex-col items-center justify-center gap-4 mt-8 sm:flex-row">
+        <div className="mt-8 ">
           <Button href="tel:+27XXXXXXXXX" size="md">
             <Phone size={18} className="mr-2" />
             Contact Us
-          </Button>
-
-          <Button
-            href="https://wa.me/27XXXXXXXXX"
-            className="text-blue-700 bg-white hover:bg-white/90"
-            size="md"
-          >
-            <MessageCircle size={18} className="mr-2" />
-            WhatsApp Support
           </Button>
         </div>
       </div>
