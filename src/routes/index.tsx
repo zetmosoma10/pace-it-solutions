@@ -10,9 +10,13 @@ function App() {
   return (
     <main>
       <Hero />
-      <TrustBar />
+      <div className="my-20">
+        <TrustBar />
+      </div>
       <ServicesOverview />
-      <CallToAction />
+      <div className="mt-20">
+        <CallToAction />
+      </div>
     </main>
   );
 }

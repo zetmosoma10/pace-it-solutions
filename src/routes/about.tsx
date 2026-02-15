@@ -23,7 +23,7 @@ function RouteComponent() {
       </div>
 
       {/* About Pace IT Solutions */}
-      <div className="mt-12 max-container">
+      <div className="mt-20 max-container">
         <div className="text-center">
           <h2 className="text-text">Who We Are</h2>
           <p className="mt-4 text-muted">
@@ -33,20 +33,21 @@ function RouteComponent() {
             is a trusted IT services provider based in Burgersfort, Limpopo,
             South Africa. We specialize in delivering cost-effective, high-value
             IT management and technical support to homes, businesses, and
-            schools throughout the region. With over a decade of experience in
-            the IT industry, our team of certified technicians has built a
-            reputation for reliability, professionalism, and customer-focused
-            service. We understand the unique IT challenges faced by different
-            sectors and provide tailored solutions to meet those needs. Whether
-            you're a homeowner dealing with a virus, a small business needing
-            infrastructure support, or a school requiring security solutions,
-            Pace IT Solutions is here to help you succeed with technology.
+            schools throughout the region.<br></br> <br></br> With over a decade
+            of experience in the IT industry, our team of certified technicians
+            has built a reputation for reliability, professionalism, and
+            customer-focused service. We understand the unique IT challenges
+            faced by different sectors and provide tailored solutions to meet
+            those needs. Whether you're a homeowner dealing with a virus, a
+            small business needing infrastructure support, or a school requiring
+            security solutions, Pace IT Solutions is here to help you succeed
+            with technology.
           </p>
         </div>
       </div>
 
       {/* Mission */}
-      <div className="py-20 mt-12 bg-background">
+      <div className="py-20 mt-20 bg-background">
         <div className="space-y-10 text-center max-container">
           <div>
             <h2 className="text-primary">Our Mission</h2>
@@ -73,7 +74,7 @@ function RouteComponent() {
       </div>
 
       {/* Our Core Values */}
-      <div className="my-12 max-container">
+      <div className="my-20 max-container">
         <h2 className="mb-6 text-center text-text">Our Core Values</h2>
         <div className="grid gap-8 grid-cols-[repeat(auto-fit,minmax(280px,1fr))]">
           {coreValues.map((value) => (
@@ -86,7 +87,7 @@ function RouteComponent() {
       </div>
 
       {/* Stats */}
-      <div className="py-20 mb-12 bg-background">
+      <div className="py-20 mb-20 bg-background">
         <div className="mx-auto space-y-8 text-center max-container">
           <div className="grid gap-8 sm:grid-cols-2">
             <div>
