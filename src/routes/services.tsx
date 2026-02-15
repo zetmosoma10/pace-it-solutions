@@ -1,4 +1,13 @@
-import { homeITServices } from "@/utils/constance";
+import CallToAction from "@/components/sections/CallToAction";
+import ServiceITSolution from "@/components/sections/ServiceITSolution";
+import {
+  businessITServices,
+  cloudServicesIT,
+  homeITServices,
+  schoolITServices,
+  securityITServices,
+  webServicesIT,
+} from "@/utils/constance";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/services")({
@@ -19,25 +28,51 @@ function RouteComponent() {
         </div>
       </div>
 
-      <div className="mt-12 max-container">
+      <div className="my-20 space-y-20 max-container">
         {/* Home IT */}
-        <div>
-          <h2 className="text-primary">Home IT Solutions</h2>
-          <p className="text-muted">
-            Complete IT support and services designed for homeowners and
-            residential users.
-          </p>
+        <ServiceITSolution
+          heading="Home IT Solutions"
+          subText="Complete IT support and services designed for homeowners and residential users."
+          services={homeITServices}
+        />
 
-          <div className="mt-8 space-y-6">
-            {homeITServices.map((service) => (
-              <div className="p-4 border-l-4 rounded-lg shadow-md bg-background border-primary ">
-                <h3 className="text-text">{service.header}</h3>
-                <p className="mt-1 text-black/90">{service.text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+        {/* Business IT */}
+        <ServiceITSolution
+          heading="Business IT Solutions"
+          subText="Comprehensive IT management and support tailored for small to medium-sized businesses."
+          services={businessITServices}
+        />
+
+        {/* School IT */}
+        <ServiceITSolution
+          heading="School IT Solutions"
+          subText="Educational IT services designed to support learning environments."
+          services={schoolITServices}
+        />
+
+        {/* Security & Surveillance IT */}
+        <ServiceITSolution
+          heading="Security & Surveillance"
+          subText="Advanced security solutions for homes, businesses, and schools."
+          services={securityITServices}
+        />
+
+        {/* Cloud Services IT */}
+        <ServiceITSolution
+          heading="Cloud Services"
+          subText="Cloud solutions for modern businesses and organizations."
+          services={cloudServicesIT}
+        />
+
+        {/* Web & Graphic Design Services IT */}
+        <ServiceITSolution
+          heading="Web & Graphic Design"
+          subText="Professional web and graphic design services for businesses."
+          services={webServicesIT}
+        />
       </div>
+
+      <CallToAction />
     </section>
   );
 }

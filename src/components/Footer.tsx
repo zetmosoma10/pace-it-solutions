@@ -4,7 +4,7 @@ import { options, services } from "@/utils/constance";
 
 const Footer = () => {
   return (
-    <footer className="mt-12 text-white bg-text">
+    <footer className="mt-20 text-white bg-text">
       <div className="py-16 max-container">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}

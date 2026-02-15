@@ -121,3 +121,86 @@ export const homeITServices = [
     text: "Diagnosis and resolution of email configuration and internet connectivity issues",
   },
 ];
+
+export const businessITServices = [
+  {
+    header: "Complete IT Infrastructure Management",
+    text: "Full management of your business IT systems and infrastructure",
+  },
+  {
+    header: "IT Support & Maintenance",
+    text: "Ongoing technical support and preventive maintenance for your systems",
+  },
+  {
+    header: "IT Security Solutions",
+    text: "Implementation of security measures to protect your business data and systems",
+  },
+  {
+    header: "Point of Sale Systems",
+    text: "Setup and support for POS systems for retail and service businesses",
+  },
+  {
+    header: "Data Backup & Recovery",
+    text: "Secure backup solutions and data recovery services to protect your business",
+  },
+];
+
+export const schoolITServices = [
+  {
+    header: "Classroom Technology Setup",
+    text: "Installation and configuration of educational technology in classrooms",
+  },
+  {
+    header: "Firewall Installation & Configuration",
+    text: "Professional firewall setup to protect school networks and student data",
+  },
+  {
+    header: "System Security & Virus Protection",
+    text: "Comprehensive security solutions and virus protection for school systems",
+  },
+];
+
+export const securityITServices = [
+  {
+    header: "CCTV & Surveillance Systems",
+    text: "Professional installation of surveillance systems with remote monitoring capabilities",
+  },
+  {
+    header: "Data Backup & Migration",
+    text: "Secure data backup, migration, and recovery solutions for all your devices",
+  },
+];
+
+export const cloudServicesIT = [
+  {
+    header: "Cloud Planning & Strategy",
+    text: "Expert consultation on cloud migration and adoption strategies",
+  },
+  {
+    header: "Cloud Migration",
+    text: "Seamless migration of your systems and data to cloud platforms",
+  },
+  {
+    header: "Disaster Recovery Planning",
+    text: "Implementation of disaster recovery and business continuity solutions",
+  },
+];
+
+export const webServicesIT = [
+  {
+    header: "Website Development",
+    text: "Professional custom website development tailored to your business needs",
+  },
+  {
+    header: "Domain Registration",
+    text: "Fast and easy domain registration with technical support",
+  },
+  {
+    header: "Business Email Setup",
+    text: "Professional email setup and configuration for your business domain",
+  },
+  {
+    header: "Graphic Design Services",
+    text: "Creative design services for logos, branding, and marketing materials",
+  },
+];
