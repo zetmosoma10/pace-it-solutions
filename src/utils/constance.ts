@@ -102,3 +102,22 @@ export const coreValues = [
     text: "We're proud to serve and support the Burgersfort and Limpopo community",
   },
 ];
+
+export const homeITServices = [
+  {
+    header: "Hardware & Software Problem Resolution",
+    text: "Expert troubleshooting and repair of computer and software issues",
+  },
+  {
+    header: "WiFi Installation & Network Setup",
+    text: "Professional installation and configuration of home networks for optimal speed and coverage",
+  },
+  {
+    header: "IP Camera Installation",
+    text: "Professional installation of security cameras for home surveillance",
+  },
+  {
+    header: "Email & Internet Troubleshooting",
+    text: "Diagnosis and resolution of email configuration and internet connectivity issues",
+  },
+];
