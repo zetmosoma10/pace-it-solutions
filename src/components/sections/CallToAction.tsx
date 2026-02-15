@@ -3,7 +3,7 @@ import { Button } from "@/components/Button";
 
 const CallToAction = () => {
   return (
-    <section className="py-20 mt-12 bg-primary">
+    <section className="py-20 bg-primary">
       <div className="max-w-4xl px-4 mx-auto text-center">
         {/* Heading */}
         <h2 className="text-white">Ready to solve your IT problems?</h2>

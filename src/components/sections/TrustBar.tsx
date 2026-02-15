@@ -25,7 +25,7 @@ const items = [
 
 const TrustBar = () => {
   return (
-    <section className="mt-12 bg-white max-container">
+    <section className="bg-white  max-container">
       <h2 className="mb-4 text-center text-text">Why Choose Us?</h2>
       <div className="py-10">
         <div className="grid grid-cols-1 gap-8 text-center sm:grid-cols-2 lg:grid-cols-4">

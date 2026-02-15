@@ -1,9 +1,74 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute('/about')({
+export const Route = createFileRoute("/about")({
   component: RouteComponent,
-})
+});
 
 function RouteComponent() {
-  return <div>Hello "/about"!</div>
+  return (
+    <section className="bg-white ">
+      {/* Page Hero */}
+      <div className="py-20 about-img">
+        <div className="max-w-4xl px-4 mx-auto text-center">
+          <h1 className="text-4xl text-white md:text-5xl">
+            About Pace IT Solutions
+          </h1>
+          <p className="max-w-2xl mx-auto mt-4 text-white/70">
+            Delivering reliable and professional IT support services in
+            Burgersfort and surrounding areas.
+          </p>
+        </div>
+      </div>
+
+      {/* About Pace IT Solutions */}
+      <div className="mt-12 max-container">
+        <div className="text-center">
+          <h2 className="text-text">Who We Are</h2>
+          <p className="mt-4 text-muted">
+            <span className="font-semibold text-primary">
+              Pace IT Solutions
+            </span>{" "}
+            is a trusted IT services provider based in Burgersfort, Limpopo,
+            South Africa. We specialize in delivering cost-effective, high-value
+            IT management and technical support to homes, businesses, and
+            schools throughout the region. With over a decade of experience in
+            the IT industry, our team of certified technicians has built a
+            reputation for reliability, professionalism, and customer-focused
+            service. We understand the unique IT challenges faced by different
+            sectors and provide tailored solutions to meet those needs. Whether
+            you're a homeowner dealing with a virus, a small business needing
+            infrastructure support, or a school requiring security solutions,
+            Pace IT Solutions is here to help you succeed with technology.
+          </p>
+        </div>
+      </div>
+
+      {/* Mission */}
+      <div className="py-20 mt-12 bg-background">
+        <div className="space-y-10 text-center max-container">
+          <div>
+            <h2 className="text-primary">Our Mission</h2>
+            <p className="mt-3 text-black/70">
+              To provide accessible, professional, and reliable IT services that
+              empower homes, businesses, and schools in Burgersfort and
+              surrounding areas to succeed in the digital world. We're committed
+              to solving IT problems quickly and efficiently, while building
+              lasting relationships with our clients based on trust and
+              excellent service.
+            </p>
+          </div>
+          <div>
+            <h2 className="text-primary">Our Vision</h2>
+            <p className="mt-3 text-black/70">
+              To be the most trusted and respected IT services provider in
+              Limpopo, known for our technical expertise, customer service
+              excellence, and commitment to community. We envision a future
+              where every home, business, and school has access to professional,
+              affordable IT support that drives their success and growth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
