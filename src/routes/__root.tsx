@@ -5,6 +5,7 @@ import { TanStackDevtools } from "@tanstack/react-devtools";
 import appCss from "../styles.css?url";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import NotFoundPage from "@/components/sections/NotFoundPage";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -28,6 +29,7 @@ export const Route = createRootRoute({
     ],
   }),
   shellComponent: RootDocument,
+  notFoundComponent: () => <NotFoundPage />,
 });
 
 function RootDocument({ children }: { children: React.ReactNode }) {

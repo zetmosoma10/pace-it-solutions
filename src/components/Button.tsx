@@ -23,8 +23,8 @@ export function Button({
     "inline-flex items-center justify-center rounded-lg font-medium transition focus:outline-none";
 
   const variants = {
-    primary: "bg-accent text-white hover:bg-accent/90",
-    secondary: "text-white bg-primary hover:bg-primary/90",
+    primary: "text-white bg-primary hover:bg-primary/90",
+    secondary: "bg-accent text-white hover:bg-accent/90",
     outline:
       "border border-primary text-primary hover:bg-primary hover:text-white",
   };

@@ -16,7 +16,7 @@ const CallToAction = () => {
 
         {/* Buttons */}
         <div className="mt-8 ">
-          <Button href="tel:+27XXXXXXXXX" size="md">
+          <Button href="tel:+27XXXXXXXXX" size="md" variant="secondary">
             <Phone size={18} className="mr-2" />
             Contact Us
           </Button>

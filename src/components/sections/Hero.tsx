@@ -16,10 +16,10 @@ const Hero = () => {
         </div>
         <div className="flex items-center justify-center md:justify-start">
           <div className="flex items-center gap-3">
-            <Button to="/services" size="md" variant="secondary">
+            <Button to="/services" size="md" variant="primary">
               View Services
             </Button>
-            <Button to="/contact" size="md" variant="primary">
+            <Button to="/contact" size="md" variant="secondary">
               Contact Us
             </Button>
           </div>
