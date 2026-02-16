@@ -22,7 +22,13 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-white/80">
               {options.map((option) => (
                 <li key={option.to}>
-                  <Link {...option} className="hover:text-white">
+                  <Link
+                    {...option}
+                    activeProps={{
+                      className: "text-white font-bold underline",
+                    }}
+                    className="hover:text-white hover:underline hover:font-bold"
+                  >
                     {option.label}
                   </Link>
                 </li>
