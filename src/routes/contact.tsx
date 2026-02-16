@@ -59,6 +59,24 @@ function RouteComponent() {
           within 24 hours.
         </p>
       </div>
+
+      <section className="py-16 md:py-20 bg-background">
+        <div className="container px-4 mx-auto sm:px-6">
+          <h2 className="mb-12 text-center text-text">Find Us</h2>
+          <div className="overflow-hidden rounded-lg shadow-lg h-96">
+            <iframe
+              title="Pace IT Solutions"
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d821.6267173187381!2d30.32033499979771!3d-24.641245028461963!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sza!4v1771233215516!5m2!1sen!2sza"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
     </section>
   );
 }
