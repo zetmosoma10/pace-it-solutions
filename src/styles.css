@@ -32,6 +32,14 @@ body {
   background-size: cover;
 }
 
+.contact-img {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("/src/assets/connect.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
 @layer base {
   h1 {
     @apply text-4xl font-bold sm:text-5xl md:text-6xl;
