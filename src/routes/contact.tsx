@@ -51,6 +51,14 @@ function RouteComponent() {
           </div>
         </div>
       </div>
+
+      <div className="px-6 py-4 mt-6 bg-opacity-50 border rounded-lg max-container border-primary/60 bg-primary/10">
+        <h3 className="mb-2 text-primary">Quick Response</h3>
+        <p className="text-black/80">
+          Free diagnostics on all services. We typically respond to inquiries
+          within 24 hours.
+        </p>
+      </div>
     </section>
   );
 }
