@@ -30,46 +30,58 @@ function RouteComponent() {
 
       <div className="my-20 space-y-20 max-container">
         {/* Home IT */}
-        <ServiceITSolution
-          heading="Home IT Solutions"
-          subText="Complete IT support and services designed for homeowners and residential users."
-          services={homeITServices}
-        />
+        <div id="homeIT">
+          <ServiceITSolution
+            heading="Home IT Solutions"
+            subText="Complete IT support and services designed for homeowners and residential users."
+            services={homeITServices}
+          />
+        </div>
 
         {/* Business IT */}
-        <ServiceITSolution
-          heading="Business IT Solutions"
-          subText="Comprehensive IT management and support tailored for small to medium-sized businesses."
-          services={businessITServices}
-        />
+        <div id="businessIT">
+          <ServiceITSolution
+            heading="Business IT Solutions"
+            subText="Comprehensive IT management and support tailored for small to medium-sized businesses."
+            services={businessITServices}
+          />
+        </div>
 
         {/* School IT */}
-        <ServiceITSolution
-          heading="School IT Solutions"
-          subText="Educational IT services designed to support learning environments."
-          services={schoolITServices}
-        />
+        <div id="schoolsIT">
+          <ServiceITSolution
+            heading="School IT Solutions"
+            subText="Educational IT services designed to support learning environments."
+            services={schoolITServices}
+          />
+        </div>
 
         {/* Security & Surveillance IT */}
-        <ServiceITSolution
-          heading="Security & Surveillance"
-          subText="Advanced security solutions for homes, businesses, and schools."
-          services={securityITServices}
-        />
+        <div id="securityIT">
+          <ServiceITSolution
+            heading="Security & Surveillance"
+            subText="Advanced security solutions for homes, businesses, and schools."
+            services={securityITServices}
+          />
+        </div>
 
         {/* Cloud Services IT */}
-        <ServiceITSolution
-          heading="Cloud Services"
-          subText="Cloud solutions for modern businesses and organizations."
-          services={cloudServicesIT}
-        />
+        <div id="networksIT">
+          <ServiceITSolution
+            heading="Cloud Services"
+            subText="Cloud solutions for modern businesses and organizations."
+            services={cloudServicesIT}
+          />
+        </div>
 
         {/* Web & Graphic Design Services IT */}
-        <ServiceITSolution
-          heading="Web & Graphic Design"
-          subText="Professional web and graphic design services for businesses."
-          services={webServicesIT}
-        />
+        <div id="webIT">
+          <ServiceITSolution
+            heading="Web & Graphic Design"
+            subText="Professional web and graphic design services for businesses."
+            services={webServicesIT}
+          />
+        </div>
       </div>
 
       <CallToAction />

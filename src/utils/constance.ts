@@ -42,37 +42,37 @@ export const servicesData = [
     img: homeIT,
     title: "Home IT Solutions",
     description: "Reliable IT support for home networks and personal devices.",
-    href: "/services/home",
+    href: "/services#homeIT",
   },
   {
     img: businessIT,
     title: "Business IT Solutions",
     description: "Complete IT management and support for growing businesses.",
-    href: "/services/business",
+    href: "/services#businessIT",
   },
   {
     img: schoolIT,
     title: "School IT Solutions",
     description: "Modern, secure IT systems for learning environments.",
-    href: "/services/schools",
+    href: "/services#schoolsIT",
   },
   {
     img: security,
     title: "IT Security & CCTV",
     description: "Protect your systems, data, and premises from threats.",
-    href: "/services/security",
+    href: "/services#securityIT",
   },
   {
     img: network,
     title: "Networks & Cloud",
     description: "Network setup, optimization, cloud and backup solutions.",
-    href: "/services/networks",
+    href: "/services#networksIT",
   },
   {
     img: graphics,
     title: "Web & Graphic Design",
     description: "Websites, branding, and digital solutions for your business.",
-    href: "/services/web",
+    href: "/services#webIT",
   },
 ];
 
