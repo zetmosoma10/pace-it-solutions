@@ -1,9 +1,28 @@
 import CallToAction from "@/components/sections/CallToAction";
 import { coreValues } from "@/utils/constance";
+import { generateLocalBusinessSchema } from "@/utils/generateLocalBusinessSchema";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/about")({
   component: RouteComponent,
+  head: () => ({
+    meta: [
+      {
+        title: "About Pace IT Solutions | Trusted IT Services in Burgersfort",
+      },
+      {
+        name: "description",
+        content:
+          "Learn about Pace IT Solutions, a trusted IT services company in Burgersfort providing reliable and affordable technology solutions",
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        content: JSON.stringify(generateLocalBusinessSchema()),
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {

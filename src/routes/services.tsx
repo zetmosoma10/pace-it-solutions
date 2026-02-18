@@ -8,10 +8,30 @@ import {
   securityITServices,
   webServicesIT,
 } from "@/utils/constance";
+import { generateLocalBusinessSchema } from "@/utils/generateLocalBusinessSchema";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/services")({
   component: RouteComponent,
+  head: () => ({
+    meta: [
+      {
+        title:
+          "IT Services in Burgersfort | Computer Repair, Networking, Security & More",
+      },
+      {
+        name: "description",
+        content:
+          "Home IT support, business IT management, CCTV installation, cloud services, website development and more in Burgersfort, Limpopo.",
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        content: JSON.stringify(generateLocalBusinessSchema()),
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {

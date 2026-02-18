@@ -1,8 +1,27 @@
+import { generateLocalBusinessSchema } from "@/utils/generateLocalBusinessSchema";
 import { createFileRoute } from "@tanstack/react-router";
 import { Clock4 } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   component: RouteComponent,
+  head: () => ({
+    meta: [
+      {
+        title: "Contact Pace IT Solutions | Reliable IT Support in Burgersfort",
+      },
+      {
+        name: "description",
+        content:
+          "Contact Pace IT Solutions in Burgersfort for computer repair, IT support, CCTV installation, and cloud services. Call or WhatsApp today.",
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        content: JSON.stringify(generateLocalBusinessSchema()),
+      },
+    ],
+  }),
 });
 
 function RouteComponent() {

@@ -6,6 +6,7 @@ import appCss from "../styles.css?url";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import NotFoundPage from "@/components/sections/NotFoundPage";
+import { generateLocalBusinessSchema } from "@/utils/generateLocalBusinessSchema";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -18,13 +19,25 @@ export const Route = createRootRoute({
         content: "width=device-width, initial-scale=1",
       },
       {
-        title: "Pace IT Solutions",
+        title:
+          "Professional Computer Repair & IT Support in Burgersfort | Pace IT Solutions",
+      },
+      {
+        name: "description",
+        content:
+          "Reliable IT support for homes, businesses and schools in Burgersfort. Computer repair, CCTV, networking, cloud solutions and more.",
       },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        content: JSON.stringify(generateLocalBusinessSchema()),
       },
     ],
   }),

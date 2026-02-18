@@ -4,7 +4,9 @@ import CallToAction from "@/components/sections/CallToAction";
 import ServicesOverview from "@/components/sections/ServicesOverview";
 import Hero from "@/components/sections/Hero";
 
-export const Route = createFileRoute("/")({ component: App });
+export const Route = createFileRoute("/")({
+  component: App,
+});
 
 function App() {
   return (
