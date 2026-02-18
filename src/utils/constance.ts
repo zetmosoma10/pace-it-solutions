@@ -1,8 +1,8 @@
-import graphics from "@/assets/graphics.png";
+import graphics from "@/assets/graphics.webp";
 import homeIT from "@/assets/homeIT.webp";
-import businessIT from "@/assets/businessIT-2.png";
-import security from "@/assets/security.png";
-import schoolIT from "@/assets/schoolIT.png";
+import businessIT from "@/assets/businessIT-3.webp";
+import security from "@/assets/security.webp";
+import schoolIT from "@/assets/schoolIT-4.webp";
 import network from "@/assets/cloud-networking.webp";
 
 export const options = [

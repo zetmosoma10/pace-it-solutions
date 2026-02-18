@@ -15,7 +15,7 @@ body {
 .hero-img {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/src/assets//businessIT-2.png");
+    url("/src/assets/businessIT-2.webp");
   background-blend-mode: multiply;
   background-size: cover;
 }
@@ -23,7 +23,7 @@ body {
 .about-img {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("/src/assets/about-img.jpg");
+    url("/src/assets/about-img.webp");
   background-blend-mode: multiply;
   background-size: cover;
 }
@@ -31,7 +31,7 @@ body {
 .service-img {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("/src/assets/e8d1f1f6-388f-482a-adc8-2d7d7ad4a66f.webp");
+    url("/src/assets/security-2.webp");
   background-blend-mode: multiply;
   background-size: cover;
 }
@@ -39,7 +39,7 @@ body {
 .contact-img {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url("/src/assets/connect.jpg");
+    url("/src/assets/connect.webp");
   background-blend-mode: multiply;
   background-size: cover;
 }
