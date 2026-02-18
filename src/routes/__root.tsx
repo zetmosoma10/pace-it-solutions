@@ -33,6 +33,10 @@ export const Route = createRootRoute({
         rel: "stylesheet",
         href: appCss,
       },
+      {
+        rel: "icon",
+        href: "/public/favicon.png",
+      },
     ],
     scripts: [
       {
