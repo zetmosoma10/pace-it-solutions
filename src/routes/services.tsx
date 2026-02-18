@@ -16,7 +16,7 @@ export const Route = createFileRoute("/services")({
 
 function RouteComponent() {
   return (
-    <section className="bg-white">
+    <section className="mt-16 bg-white">
       {/* Page Hero */}
       <div className="py-20 service-img">
         <div className="max-w-4xl px-4 mx-auto text-center">

@@ -8,7 +8,7 @@ export const Route = createFileRoute("/about")({
 
 function RouteComponent() {
   return (
-    <section className="bg-white ">
+    <section className="mt-16 bg-white ">
       {/* Page Hero */}
       <div className="py-20 about-img">
         <div className="max-w-4xl px-4 mx-auto text-center">
@@ -78,7 +78,10 @@ function RouteComponent() {
         <h2 className="mb-6 text-center text-text">Our Core Values</h2>
         <div className="grid gap-8 grid-cols-[repeat(auto-fit,minmax(280px,1fr))]">
           {coreValues.map((value) => (
-            <div className="p-6 border-t-4 rounded-lg border-t-primary hover:shadow-md bg-background">
+            <div
+              key={value.header}
+              className="p-6 border-t-4 rounded-lg border-t-primary hover:shadow-md bg-background"
+            >
               <h3 className="text-primary">{value.header}</h3>
               <p className="mt-2 text-black/70">{value.text}</p>
             </div>

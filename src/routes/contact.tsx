@@ -7,7 +7,7 @@ export const Route = createFileRoute("/contact")({
 
 function RouteComponent() {
   return (
-    <section>
+    <section className="mt-16">
       {/* Page Hero */}
       <div className="py-20 contact-img">
         <div className="max-w-4xl px-4 mx-auto text-center">
