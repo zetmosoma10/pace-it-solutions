@@ -1,4 +1,4 @@
-import { Phone, MessageCircle } from "lucide-react";
+import { Phone } from "lucide-react";
 import { Button } from "@/components/Button";
 
 const CallToAction = () => {
@@ -16,7 +16,7 @@ const CallToAction = () => {
 
         {/* Buttons */}
         <div className="mt-8 ">
-          <Button href="tel:+27XXXXXXXXX" size="md" variant="secondary">
+          <Button href="tel:+27664750081" size="md" variant="secondary">
             <Phone size={18} className="mr-2" />
             Contact Us
           </Button>

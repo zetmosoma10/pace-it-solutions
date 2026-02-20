@@ -53,15 +53,15 @@ const Footer = () => {
             <div className="space-y-4 text-sm text-white/80">
               <div className="flex items-start gap-3">
                 <Phone size={18} />
-                <a href="tel:+27XXXXXXXXX" className="hover:text-white">
-                  +27 721 334 9428
+                <a href="tel:+27664750081" className="hover:text-white">
+                  +27 66 475 0081
                 </a>
               </div>
 
               <div className="flex items-start gap-3">
                 <MessageCircle size={18} />
                 <a
-                  href="https://wa.me/277213349428"
+                  href="https://wa.me/27664750081"
                   className="hover:text-white"
                 >
                   WhatsApp Support

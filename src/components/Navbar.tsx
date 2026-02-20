@@ -71,7 +71,7 @@ const Navbar = () => {
               {/* Mobile CTA */}
               <Button
                 variant="secondary"
-                href="tel:+27 712991085"
+                href="tel:+2766 123 4567"
                 className="flex items-center gap-2"
               >
                 <Phone size={18} />

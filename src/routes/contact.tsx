@@ -47,25 +47,27 @@ function RouteComponent() {
           </div>
           <div>
             <h3 className="mb-2 text-primary">Phone</h3>
-            <p className="text-muted">+27 15 234 5678</p>
+            <p className="text-muted">+27 66 475 0081</p>
           </div>
           <div>
             <h3 className="mb-2 text-primary">Email</h3>
-            <p className="text-muted">info@paceitsolutions.co.za</p>
+            <p className="text-muted">pacethabo@gmail.com</p>
           </div>
           <div>
             <h3 className="mb-2 text-primary">Operating Hours</h3>
-            <div className="flex items-center space-x-2 text-muted">
-              <Clock4 className=" text-muted" />
-              <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
-            </div>
-            <div className="flex items-center space-x-2 text-muted">
-              <Clock4 className=" text-muted" />
-              <p>Saturday: 9:00 AM - 03:00 PM</p>
-            </div>
-            <div className="flex items-center space-x-2 text-muted">
-              <Clock4 className=" text-muted" />
-              <p>24/7 Emergency Support Available</p>
+            <div className="space-y-1">
+              <div className="flex items-center space-x-2 text-muted">
+                <Clock4 className=" text-muted" />
+                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+              </div>
+              <div className="flex items-center space-x-2 text-muted">
+                <Clock4 className=" text-muted" />
+                <p>Saturday: 9:00 AM - 03:00 PM</p>
+              </div>
+              <div className="flex items-center space-x-2 text-muted">
+                <Clock4 className=" text-muted" />
+                <p>24/7 Emergency Support Available</p>
+              </div>
             </div>
           </div>
         </div>
