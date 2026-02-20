@@ -1,11 +1,11 @@
 export function generateLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "ITService", // better than LocalBusiness for you
+    "@type": "ITService",
     name: "Pace IT Solutions",
-    image: "https://paceitsolutions.co.za/logo.png",
+    image: "https://paceitsolutions.co.za/logo.jpeg",
     url: "https://paceitsolutions.co.za",
-    telephone: "+27XXXXXXXXX",
+    telephone: "+27 66 475 0081",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Burgersfort",
